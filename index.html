@@ -1,0 +1,230 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostra - Home</title>
+   <link rel="stylesheet" href="style.css">
+
+<script src="js.js"></script>
+
+</head>
+<body>
+
+    <div class="offer-bar">
+        <p>Sign Up and GET 20% OFF for your first Order</p>
+        <span class="offer-close" onclick="this.parentElement.style.display='none'">×</span>
+    </div>
+
+    <nav class="navbar">
+        <h1 class="logo">Nostra</h1>
+
+        <div class="nav-links" id="nav-links">
+            <a href="index.html">Home</a>
+            <a href="index.html#new-arrival">New Arrival</a>
+            <a href="index.html#most-wanted">Most Wanted</a>
+            <a href="collections.html">Collections</a>
+            <a href="contactus.html">Contact Us</a>
+        </div>
+
+        <button class="menu-button" id="menu-button" aria-label="Open menu">☰</button>
+    </nav>
+
+    <main>
+        <!-- HERO SLIDER -->
+        <section class="hero">
+            <div class="hero-track" id="hero-track">
+                <div class="hero-slide">
+                    <img src="images/hero1.jpg" alt="Nostra fashion collection">
+                </div>
+                <div class="hero-slide">
+                    <img src="images/hero2.jpg" alt="Latest fashion collection">
+                </div>
+                <div class="hero-slide">
+                    <img src="images/hero3.jpg" alt="Nostra new collection">
+                </div>
+            </div>
+
+            <button class="hero-arrow hero-prev" id="hero-prev" aria-label="Previous image">❮</button>
+            <div class="hero-content">
+                <h2>Level Up Your Style</h2>
+                <p>With our stunning collections</p>
+                <a href="collections.html" class="shop-button">Shop Now</a>
+            </div>
+            <button class="hero-arrow hero-next" id="hero-next" aria-label="Next image">❯</button>
+        </section>
+
+        <!-- BRANDS -->
+        <section class="brands-section">
+            <h2>Brands</h2>
+            <div class="brands">
+                <div><img src="images/brand1.png" alt="Brand 1"><p>Puma</p></div>
+                <div><img src="images/brand2.png" alt="Brand 2"><p>Adidas</p></div>
+                <div><img src="images/brand3.png" alt="Brand 3"><p>Simple</p></div>
+                <div><img src="images/brand4.png" alt="Brand 4"><p>Leaves</p></div>
+                <div><img src="images/brand5.png" alt="Brand 5"><p>Behance</p></div>
+                <div><img src="images/brand6.png" alt="Brand 6"><p>Twitch</p></div>
+            </div>
+        </section>
+
+        <!-- WHY CHOOSE US -->
+        <section class="service-section">
+            <div class="section-heading">
+                <h2>We Provide Best Customer Experiences</h2>
+                <p>We ensure that our customers have the best shopping experience</p>
+            </div>
+
+            <div class="service-grid">
+                <div class="service-card">
+                    <h3>🚚</h3>
+                    <h4>Free Shipping</h4>
+                    <p>Enjoy free shipping on selected orders.</p>
+                </div>
+                <div class="service-card">
+                    <h3>✔️</h3>
+                    <h4>Quality Products</h4>
+                    <p>Discover quality products at great prices.</p>
+                </div>
+                <div class="service-card">
+                    <h3>🎧</h3>
+                    <h4>Customer Support</h4>
+                    <p>We are always here to help you.</p>
+                </div>
+                <div class="service-card">
+                    <h3>🔄</h3>
+                    <h4>Easy Returns</h4>
+                    <p>Shop confidently with easy returns.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- NEW ARRIVAL -->
+        <section class="product-section" id="new-arrival">
+            <div class="section-title">
+                <h2>New Arrivals</h2>
+                <p>Discover our latest collection</p>
+            </div>
+
+            <div class="carousel">
+                <button class="carousel-arrow" id="new-prev" aria-label="Previous products">❮</button>
+
+                <div class="carousel-window" id="new-window">
+                    <div class="carousel-track">
+                        <div class="product-card">
+                            <img src="images/new1.jpg" alt="New arrival 1">
+                            <h3>New Style 1</h3>
+                            <p>Latest Collection</p>
+                        </div>
+                        <div class="product-card">
+                            <img src="images/new2.jpg" alt="New arrival 2">
+                            <h3>New Style 2</h3>
+                            <p>Latest Collection</p>
+                        </div>
+                        <div class="product-card">
+                            <img src="images/new3.jpg" alt="New arrival 3">
+                            <h3>New Style 3</h3>
+                            <p>Latest Collection</p>
+                        </div>
+                        <div class="product-card">
+                            <img src="images/new4.jpg" alt="New arrival 4">
+                            <h3>New Style 4</h3>
+                            <p>Latest Collection</p>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="carousel-arrow" id="new-next" aria-label="Next products">❯</button>
+            </div>
+        </section>
+
+        <!-- MOST WANTED -->
+        <section class="product-section" id="most-wanted">
+            <div class="section-title">
+                <h2>Most Wanted</h2>
+                <p>Our most popular products</p>
+            </div>
+
+            <div class="carousel">
+                <button class="carousel-arrow" id="wanted-prev" aria-label="Previous products">❮</button>
+
+                <div class="carousel-window" id="wanted-window">
+                    <div class="carousel-track">
+                        <div class="product-card">
+                            <img src="images/product1.jpg" alt="Product 1">
+                            <h3>Classic Style</h3>
+                            <p>Most Wanted</p>
+                        </div>
+                        <div class="product-card">
+                            <img src="images/product2.jpg" alt="Product 2">
+                            <h3>Modern Look</h3>
+                            <p>Most Wanted</p>
+                        </div>
+                        <div class="product-card">
+                            <img src="images/product3.jpg" alt="Product 3">
+                            <h3>Everyday Wear</h3>
+                            <p>Most Wanted</p>
+                        </div>
+                        <div class="product-card">
+                            <img src="images/product4.jpg" alt="Product 4">
+                            <h3>Casual Collection</h3>
+                            <p>Most Wanted</p>
+                        </div>
+                        <div class="product-card">
+                            <img src="images/product5.jpg" alt="Product 5">
+                            <h3>Trending Style</h3>
+                            <p>Most Wanted</p>
+                        </div>
+                        <div class="product-card">
+                            <img src="images/product6.jpg" alt="Product 6">
+                            <h3>New Fashion</h3>
+                            <p>Most Wanted</p>
+                        </div>
+                        <div class="product-card">
+                            <img src="images/product7.jpg" alt="Product 7">
+                            <h3>Street Style</h3>
+                            <p>Most Wanted</p>
+                        </div>
+                        <div class="product-card">
+                            <img src="images/product8.jpg" alt="Product 8">
+                            <h3>Daily Essentials</h3>
+                            <p>Most Wanted</p>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="carousel-arrow" id="wanted-next" aria-label="Next products">❯</button>
+            </div>
+        </section>
+
+        <!-- OFFER -->
+        <section class="offer-section">
+            <img src="images/offer.jpg" alt="Special Nostra offer">
+            <div class="offer-content">
+                <h2>Limited Time Offer</h2>
+                <h3>Get 20% OFF on your first purchase</h3>
+                <p>Explore our collections and find your style.</p>
+                <a href="collections.html" class="shop-button">Shop Now</a>
+            </div>
+        </section>
+
+        <!-- NEWSLETTER -->
+        <section class="newsletter">
+            <h2>Join Our Newsletter</h2>
+            <p>Sign up to receive updates about new collections and special offers.</p>
+            <form id="newsletter-form">
+                <input type="email" placeholder="Enter your email address" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <h2>Nostra</h2>
+        <p>Discover your style with Nostra.</p>
+        <p>© 2026 Nostra. All Rights Reserved.</p>
+    </footer>
+<script src="./js.js"></script>
+
+</body>
+</html>

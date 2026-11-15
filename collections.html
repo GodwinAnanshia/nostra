@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostra - Collections</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <div class="offer-bar">
+        <p>Sign Up and GET 20% OFF for your first Order</p>
+        <span class="offer-close" onclick="this.parentElement.style.display='none'">×</span>
+    </div>
+
+    <nav class="navbar">
+        <h1 class="logo">Nostra</h1>
+
+        <div class="nav-links" id="nav-links">
+            <a href="index.html">Home</a>
+            <a href="index.html#new-arrival">New Arrival</a>
+            <a href="index.html#most-wanted">Most Wanted</a>
+            <a href="collections.html">Collections</a>
+            <a href="contactus.html">Contact Us</a>
+        </div>
+
+        <button class="menu-button" id="menu-button" aria-label="Open menu">☰</button>
+    </nav>
+
+    <div class="page-heading">
+        <h1>Our Collections</h1>
+        <p>Explore our latest fashion collection</p>
+    </div>
+
+    <main class="collections-layout">
+
+        <aside class="filter-panel">
+            <h2>Categories</h2>
+
+            <div class="filter-group">
+                <label><input type="checkbox" class="category-filter" value="men"> Men</label>
+                <label><input type="checkbox" class="category-filter" value="women"> Women</label>
+                <label><input type="checkbox" class="category-filter" value="accessories"> Accessories</label>
+            </div>
+        </aside>
+
+        <section class="collection-content">
+            <input
+                type="text"
+                id="search-input"
+                class="search-box"
+                placeholder="Search for products..."
+            >
+
+            <div class="collection-grid">
+
+                <div class="product-card collection-product" data-category="men">
+                    <img src="images/product1.jpg" alt="Product 1">
+                    <h3>Classic Style</h3>
+                    <p>Men's Collection</p>
+                </div>
+
+                <div class="product-card collection-product" data-category="women">
+                    <img src="images/product2.jpg" alt="Product 2">
+                    <h3>Modern Look</h3>
+                    <p>Women's Collection</p>
+                </div>
+
+                <div class="product-card collection-product" data-category="men">
+                    <img src="images/product3.jpg" alt="Product 3">
+                    <h3>Everyday Wear</h3>
+                    <p>Men's Collection</p>
+                </div>
+
+                <div class="product-card collection-product" data-category="women">
+                    <img src="images/product4.jpg" alt="Product 4">
+                    <h3>Casual Collection</h3>
+                    <p>Women's Collection</p>
+                </div>
+
+                <div class="product-card collection-product" data-category="accessories">
+                    <img src="images/product5.jpg" alt="Product 5">
+                    <h3>Trending Style</h3>
+                    <p>Accessories</p>
+                </div>
+
+                <div class="product-card collection-product" data-category="men">
+                    <img src="images/product6.jpg" alt="Product 6">
+                    <h3>New Fashion</h3>
+                    <p>Men's Collection</p>
+                </div>
+
+                <div class="product-card collection-product" data-category="women">
+                    <img src="images/product7.jpg" alt="Product 7">
+                    <h3>Street Style</h3>
+                    <p>Women's Collection</p>
+                </div>
+
+                <div class="product-card collection-product" data-category="accessories">
+                    <img src="images/product8.jpg" alt="Product 8">
+                    <h3>Daily Essentials</h3>
+                    <p>Accessories</p>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <h2>Nostra</h2>
+        <p>Discover your style with Nostra.</p>
+        <p>© 2026 Nostra. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
